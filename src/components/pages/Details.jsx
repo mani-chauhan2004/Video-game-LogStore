@@ -6,7 +6,7 @@ import { fetchGame } from '../../Services/Services';
 function Details() {
     let searchedGame;
     const {id} = useParams;
-    const API_KEY = '75b4832064c44048ac634990055da47f';
+
 
     const loadGame = async (id) => {
         try{
